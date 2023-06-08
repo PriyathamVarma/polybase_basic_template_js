@@ -13,7 +13,7 @@ export default async function handler(req, res) {
     const createResponse = await db.applySchema(`
       
       @public    
-      collection SampleCollection {
+      collection SampleCollection2 {
         id: string;
         name: string;
         age: number;
