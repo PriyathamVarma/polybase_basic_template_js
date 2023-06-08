@@ -1,5 +1,7 @@
 This is a basic template to start with polybase
 
+![Main_iamge](https://github.com/PriyathamVarma/polybase_basic_template_js/blob/main/public/Polybase.png)
+
 ## Prerequisites
 
 ## Getting Started
