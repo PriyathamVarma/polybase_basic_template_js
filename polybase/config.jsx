@@ -7,7 +7,7 @@ import { Polybase } from "@polybase/client";
 // Namespace setup
 
 const db = new Polybase({
-  defaultNamespace: "pt_namespace",
+  defaultNamespace: "polybase_test_namespace",
 });
 
 export default db;
