@@ -18,7 +18,7 @@ export default function Home() {
     const id = Math.floor(Math.random() * 1000000); // This can be changed to a more unique id
     const submittingData = await db
       .collection("SampleCollection")
-      .create([id, name, age]);
+      .create([id.toString(), name, parseInt(age)]);
   };
 
   return (
