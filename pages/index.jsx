@@ -10,12 +10,12 @@ export default function Home() {
     event.preventDefault();
 
     const name = event.target.name.value;
-    const age = event.target.age.value;
+    const age = parseInt(event.target.age.value);
 
     console.log(name, age);
 
     // Submitting the data
-    const id = Math.floor(Math.random() * 1000000); // This can be changed to a more unique id
+    const id = Math.floor(Math.random() * 1000000).toString(); // This can be changed to a more unique id
     const submittingData = await db
       .collection("SampleCollection")
       .create([id, name, age]);
