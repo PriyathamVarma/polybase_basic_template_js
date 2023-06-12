@@ -1,16 +1,18 @@
 This is a basic template to start with polybase
 
-![Main_iamge](https://github.com/PriyathamVarma/polybase_basic_template_js/blob/main/public/Polybase.png)
+![Main_image](https://github.com/PriyathamVarma/polybase_basic_template_js/blob/main/public/Polybase.png)
 
 ## Getting Started
 
-- Git clone this repo
+Git clone this repo, then run
 
-- npm install
+```bash
+npm i
+npm run dev
+node callSchemas.js
+```
 
-- node callSchemas.js
-
-- npm run dev
+Open http://localhost:3000/ to view
 
 ## File Structure
 
