@@ -8,9 +8,11 @@ This is a basic template to start with polybase
 
 - npm install
 
-- node callSchemas.js
-
 - npm run dev
+
+- node callSchemas.js(in a new terminal)
+
+
 
 ## File Structure
 
