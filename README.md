@@ -29,9 +29,13 @@ This is a basic template to start with polybase
 - Schemas are located in the `pages/api/schemas` folder. Each schema is for each collection.
 
 🔹 Step 1: Navigate to /pages/api/schemas directory.
+
 🔹 Step 2: Create a new file (e.g., newFile.jsx) to define the schema.
+
 🔹 Step 3: Add the file name to the apiEndPoints as "/api/schemas/newFile".
+
 🔹 Step 4: Inside newFile.jsx, design the schema as per your requirements, utilizing the available rules and guidelines.
+
 🔹 Step 5: Run the command node callSchemas to deploy the newly created schema.
 
 By following these steps, you can easily create and deploy a new schema for your application. 🚀💡
